@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="3" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item alignment="Qt::AlignRight">
+         <widget class="QPushButton" name="learnMoreBtn">
+          <property name="font">
+           <font>
+            <family>CADT Mono Display</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton#learnMoreBtn {
+    background-color: #3498db;  /* Light blue background */
+    color: white;  /* White text */
+    border: none;  /* No border */
+    padding: 10px 20px;  /* Padding */
+    border-radius: 5px;  /* Rounded corners */
+}
+
+QPushButton#learnMoreBtn:hover {
+    background-color: #2980b9;  /* Darker blue on hover */
+}
+
+QPushButton#learnMoreBtn:pressed {
+    background-color: #1f6390;  /* Even darker blue on press */
+}
+</string>
+          </property>
+          <property name="text">
+           <string>Learn more</string>
+          </property>
+         </widget>
+        </item>
+        <item alignment="Qt::AlignLeft">
+         <widget class="QPushButton" name="gettingStartBtn">
+          <property name="font">
+           <font>
+            <family>CADT Mono Display</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton#gettingStartBtn {
+    background-color: #3498db;  /* Light blue background */
+    color: white;  /* White text */
+    border: none;  /* No border */
+    padding: 10px 20px;  /* Padding */
+    border-radius: 5px;  /* Rounded corners */
+}
+
+QPushButton#gettingStartBtn:hover {
+    background-color: #2980b9;  /* Darker blue on hover */
+}
+
+QPushButton#gettingStartBtn:pressed {
+    background-color: #1f6390;  /* Even darker blue on press */
+}
+</string>
+          </property>
+          <property name="text">
+           <string>Getting Start</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="2" column="0" alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="titleLable">
+        <property name="font">
+         <font>
+          <family>CADT Mono Display</family>
+          <pointsize>-1</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+    font-size: 24px;  /* Font size */
+    font-weight: bold;  /* Bold font */
+    color: #2c3e50;  /* Dark grey color */
+    padding: 10px 0;  /* Padding */
+    border-bottom: 2px solid #2980b9;  /* Bottom border */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Automata Simulator</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="1" column="0">
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
